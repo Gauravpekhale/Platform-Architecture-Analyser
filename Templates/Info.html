@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style3.css">
+    
+    <title>Platform Analyzer</title>
+</head>
+<body>
+  <div class="flex-ctn">
+    <div class="card" id="os" onclick="OS()" >
+        <h3 class="card-heading"><u>OS Information</u></h3>
+        <img src="os.jpg"  alt="OS" style="width:100%">
+        <div class="container">
+          <p id="inn">Operating system manages computer hardware , software resources, and provides services for computer.</p>
+        </div>
+    </div>
+    
+    <div class="card" id="hard" onclick="HARD()">
+        <h3 class="card-heading"><u>Hardisk Information</u></h3>
+        <img src="harddisk.jpg" alt="harddisk" style="width: 100%;">
+        <div class="container" >
+          <p id="inn2" > hard disk, also called hard drive, magnetic storage medium for a computer, used as secondary storage. </p>
+        </div>
+      </div>
+
+    <div class="card" id="ram" onclick="RAM()">
+        <h3 class="card-heading"><u>RAM Information</u></h3>
+        <img src="ram.jpg" alt="Ram" style="width:100%">
+        <div class="container">
+          <p> random access memory (RAM) is your system's short-term data storage, RAM has two types SRAM and DRAM</p>
+        </div>
+      </div>
+
+    <div class="card" id="processor" onclick="PROCESS()">
+        <h3 class="card-heading"><u>Processor Information</u></h3>
+        <img src="process.jpg" alt="Processor" style="width:100%">
+        <div class="container">
+          <p> A processor is an integrated electronic circuit that performs the calculations that run a computer. </p>
+        </div>
+      </div>
+      </div>
+      <div>
+        <button onclick="send_mail()" class="glow-on-hover" type="button" id="send-but"><h3>Send Mail<h3></button>      
+        <p id="err" style=" font-family: 'Courier New', Courier, monospace; color: red ; border :1px solid black ; border-radius: 20px;"></p>
+      </div>
+      <script src="main.js"></script>
+      <script src="script2.js"></script>
+      <script type="text/javascript" src="../eel.js"></script>
+</body>
+</html>

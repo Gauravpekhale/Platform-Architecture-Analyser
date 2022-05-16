@@ -1,0 +1,47 @@
+
+
+body{
+  background-color: thistle;
+}
+.card {
+    height: 20%;
+    width: 20%;
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    transition: 0.3s;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color:#fff;
+    border-radius:25px 0px 25px 0px ;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 5px 10px 20px 5px rgb(28, 28, 28);
+    background: linear-gradient(90deg, #dfb5c7, #b4cce8);
+    width: 22%;
+    height: 22%;
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+    word-wrap:break-word;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+
+  }
+  
+  .flex-ctn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+  }
+  .card-heading{
+    padding-top: 10PX;
+    text-align: center;
+    color: #000;
+    font-family: sans-serif;
+    font-weight: 600;
+  }

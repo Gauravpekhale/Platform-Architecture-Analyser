@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body onload="redirect_hard()">
+    <header>
+            <button onclick="history.back()" class="glow-on-hover" type="button" id="back-but" >Back</button>
+            <h1 id="header-text">Harddisk</h1>
+    </header>
+    <div id="div1">
+        <img id="hard_img" src="harddisk.jpg" alt="harddisk" style="height: 35%; width: 30%; border-radius: 25px 0px 0px 25px;">
+        <div>
+            <h2>Total Number Of Drives Found :</h2>
+            <h1 id="number" style="text-align:center;"></h1>
+            <button onclick="redirect_hard()"class="glow-on-hover" style="height:30px ;width: 100px;" type="button" id="back-but" >Refresh</button>
+        </div>
+        </div>
+        <div>
+            <h1>Drives And its Sizes</h1>
+            <table id="table1">
+                
+            </table>
+        </div>
+    <script type="text/javascript" src="../eel.js"></script>
+    <script src="script2.js"></script>
+</body>
+</html>
